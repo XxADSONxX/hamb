@@ -1,5 +1,5 @@
 body {
-   background-image: url("/hamburgueria/static/app/img/Frame-1-\(2\).jpg");
+    background-image: url("/hamburgueria/static/app/img/Frame-1-\(2\).jpg");
     max-height: 2564px;
     font-family: Open Sans;
 
@@ -8,11 +8,10 @@ body {
 bg1 {
     height: 100%;
     width: 100%;
-   
-}
 
-button {
-    cursor: pointer;
+}
+a{
+    list-style: none;
 }
 
 .chamada {
@@ -58,8 +57,16 @@ button {
     background: #FECE00;
     font-size: 30px;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 
+#wpp1 {
+    height: 56px;
+    width: 56px;
+    margin-right: 15px;
 }
 
 #bg-2 {
@@ -107,14 +114,22 @@ button {
 }
 
 #btn2 {
+    cursor: pointer;
     border-radius: 1em;
     background: #FECE00;
     width: 750.13px;
     height: 156px;
-
     font-size: 40px;
     font-weight: 700;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
+
+#wpp2 {
+    margin-right: 31px;
 }
 
 .chamada2 {
