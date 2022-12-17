@@ -1,14 +1,15 @@
 body {
-    background-image: url("/hamburgueria/static/app/img/Frame-1-\(2\).jpg");
     max-height: 2564px;
     font-family: Open Sans;
 
 }
-
-bg1 {
-    height: 100%;
+#bg_principal{
+    position: absolute;
+    height: 2550px;
     width: 100%;
-
+}
+#bg1 {
+    width: 100%;
 }
 a{
     list-style: none;
